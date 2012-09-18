@@ -1,5 +1,11 @@
 var express = require("express"),
-  form = require("connect-form"),
   mongoose = require("mongoose"),
-  app = express.createServer()
+  app = express()
 ;
+
+app.configure(function()  {
+  /* ExpressJs Middlewares */
+  // Simulate another http verbs (DELETE, PUT, etc)
+  app.use(express.methodOverride());
+  app.use(express.bodyParser());
+});
