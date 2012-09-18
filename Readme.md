@@ -1,4 +1,4 @@
-# NodeJs project based on workshop offer by howtocode.com.br
+### NodeJs project based on workshop offer by http://howtocode.com.br
 
 ##### Defining alias to test with mocha
     $ npm install
