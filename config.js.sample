@@ -1,13 +1,9 @@
 var Config = {};
 
 // DEVELOPMENT ENVIROMENT
-Config.development = {
-  serverPort: 7777
-}
-
-// TEST ENVIROMENT
-Config.test = {
-  serverPort: 5555
+Config.defaults = {
+  serverPort: 7777,
+  mongodb: "mongodb://localhost/nodemocha-project_env"
 }
 
 

@@ -4,6 +4,8 @@ var express = require("express"),
   app = express()
 ;
 
+mongoose.connect(config.mongodb);
+
 /* ExpressJs Middlewares */
 // Simulate another http verbs (DELETE, PUT, etc)
 app.use(express.methodOverride());
