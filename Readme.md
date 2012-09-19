@@ -2,5 +2,8 @@
 
 ##### Defining alias to test with mocha
     $ npm install
-    $ alias mocha="./node_modules/.bin/mocha"
+    $ npm install -g mocha
     $ mongod --dbpath=tmp
+
+##### Running Tests
+    $ ./test
